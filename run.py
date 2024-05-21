@@ -21,9 +21,9 @@ for num, (p1, p2) in enumerate(zip(player1_cards, player2_cards),start=1):
         i += 1
             
 if player1_wins > player2_wins:
-        print("Player 1 Wins The Game By", player1_wins, "Wins to", player2_wins)
+        print("Player 1 wins the game by", player1_wins, "wins to", player2_wins)
 elif p1_wins < p2_wins:
-        print("Player 2 Wins The Game By", player2_wins, "Wins to", player1_wins)
+        print("Player 2 wins the game by", player2_wins, "wins to", player1_wins)
 
 else:
-    print("The Game Has Finished in a Tie")
+    print("The game has finished in a tie")
