@@ -1,5 +1,7 @@
 print("********Card Busters*********")
 
+#Player cards
+
 player1_cards = [10, 6, 8, 9, 7, 12, 7]
 player2_cards = [7, 6, 9, 5, 2, 8, 11]
 
