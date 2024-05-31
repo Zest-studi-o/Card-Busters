@@ -19,7 +19,7 @@ for num, (p1, p2) in enumerate(zip(player1_cards, player2_cards),start=1):
          print(f"Player 2 wins the round, with {p2} beating {p1}")
          player2_wins += 1
     else:
-        print("Round Number",i + 1,": This round has ended in a draw")
+        print("This round has ended in a draw")
         i += 1
             
 if player1_wins > player2_wins:
